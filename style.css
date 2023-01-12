@@ -630,6 +630,77 @@ footer .icons i {
 
     .next {
         top: 30%;
-        left:  12rem;
+        left: 12rem;
+    }
+}
+
+/* contact */
+#contact-banner {
+    width: 100%;
+    height: 60vh;
+    background-image: url("images/contactus.avif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contact-us {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    display: flex;
+    gap: 10rem;
+}
+
+.form-group label {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+
+input,
+textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid var(--btn-border);
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+.contact-btn {
+    width: 100%;
+    background-color: transparent;
+}
+
+.phone-number h3{
+    font-size: 1.5rem;
+}
+
+.phone-number li, .phone-number address{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+@media (max-width: 800px) {
+    .contact-us {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
     }
 }
