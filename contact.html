@@ -14,12 +14,14 @@
     <!-- header and nav bar -->
     <div id="contact-banner">
         <nav class="nav-bar">
-            <h1 class="logo">FreeTime</h1>
+            <h1 class="logo">
+                <a href="index.html">FreeTime</a>
+            </h1>
             <ul class="nav">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="#">RESERVE</a></li>
+                <li><a href="reserve.html">RESERVE</a></li>
             </ul>
         </nav>
         <div class="">
@@ -37,7 +39,7 @@
                 <h2>Contact Us</h2>
                 <p>If you have any questions or support requests please fill out the following form and we will get back
                     to you as soon as we can.</p>
-                <form action="{{route('message.store')}}" method="POST">
+                <form action="#" method="POST">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" name="name" class="form-control">
